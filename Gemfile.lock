@@ -303,6 +303,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-include-cache
   minimal-mistakes-jekyll
   webrick (~> 1.7)
 
