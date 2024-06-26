@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-26T12:06:10+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/06/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-06-26T11:04:34+08:00</published><updated>2024-06-26T11:04:34+08:00</updated><id>http://localhost:4000/jekyll/update/2024/06/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/06/26/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-27T05:20:06+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xiaoyao‘blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">My First Post</title><link href="http://localhost:4000/blog/jekyll/2024/06/26/writing-jekyll-posts.html" rel="alternate" type="text/html" title="My First Post" /><published>2024-06-26T00:00:00+08:00</published><updated>2024-06-26T00:00:00+08:00</updated><id>http://localhost:4000/blog/jekyll/2024/06/26/writing-jekyll-posts</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/2024/06/26/writing-jekyll-posts.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -10,4 +10,76 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="blog" /><category term="jekyll" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">github.io搭建博客</title><link href="http://localhost:4000/blog/ruby/jekyll/2024/06/26/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="github.io搭建博客" /><published>2024-06-26T00:00:00+08:00</published><updated>2024-06-26T00:00:00+08:00</updated><id>http://localhost:4000/blog/ruby/jekyll/2024/06/26/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/blog/ruby/jekyll/2024/06/26/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html"><![CDATA[<h2 id="一-本地配置">一 本地配置</h2>
+
+<h3 id="1-安装配置软件">1 安装配置软件</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">## ruby: 舍弃mac自带。通过brew安装。</span>
+brew <span class="nb">install </span>ruby
+
+<span class="c">## 解决mac自带与brew冲突：将brew安装的活动版本bin文件指向$PATH. </span>
+<span class="nb">echo</span> <span class="s1">'export PATH="/usr/local/opt/ruby/bin:$PATH"'</span> <span class="o">&gt;&gt;</span> ~/.zshrc
+
+<span class="c">## brew管理多版本：即切换版本。但是当前活动版本永远指向：`/usr/local/opt/ruby/bin`.</span>
+brew <span class="nb">unlink </span>ruby@3.1.0
+brew <span class="nb">link</span> <span class="nt">--force</span> <span class="nt">--overwrite</span> ruby@3.3.3
+
+<span class="c">## brew安装源文件在 /usr/local/Cellar. 但是会自动生成软连接在：/usr/local/opt</span>
+
+<span class="c">## ruby软件来自哪里</span>
+which ruby
+</code></pre></div></div>
+
+<p>关系：</p>
+
+<ul>
+  <li>ruby ：语言（类似js）</li>
+  <li>RubyGems（gem）：ruby包管理器（类似npm）。其中 jekyll 就是其中一个包。</li>
+  <li>bundler：管理项目的gem</li>
+</ul>
+
+<h3 id="2-博客软件-jekyll">2 博客软件 jekyll</h3>
+
+<blockquote>
+  <p>全局安装 jekyll会造成：版本依赖冲突。以下局部安装：</p>
+</blockquote>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">## 创建文件夹blog</span>
+<span class="nb">mkdir </span>blog
+<span class="nb">cd </span>blog
+
+<span class="c">## 安装bundler：ruby项目包管理器。并创建Gemsfile文件作为其配置文件。</span>
+gem <span class="nb">install </span>bundler
+vim Gemsfile
+
+<span class="c">## 局部安装：通过bundle安装并控制此项目文件：而不是gem。之后所有操作前缀：`bundle exec`</span>
+bundle <span class="nb">install</span>
+
+<span class="c">## 查看局部安装的gem软件包.以及删除非Gemsfile上的包</span>
+bundle <span class="nb">exec </span>gem list
+bundle clean
+
+<span class="c">## 在blog文件夹使用：jekyll生成博客文件夹名为：jekyllBlog。（后续并将jekyllBlog所有内容复制到blog里。删除jekyllBlog文件夹）</span>
+bundle <span class="nb">exec </span>jekyll new jekyllBlog
+
+<span class="c">## 查看jekyll版本,并本地运行jekyll</span>
+bundle <span class="nb">exec </span>jekyll <span class="nt">-v</span>
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>全局安装的gem 清洗。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Gemsfile文件
+source 'https://rubygems.org'
+
+gem 'github-pages', group: :jekyll_plugins
+gem 'webrick', '~&gt; 1.7', require: false
+</code></pre></div></div>
+
+<h2 id="二-github配置">二 github配置</h2>
+
+<p><a href="https://docs.github.com/zh/pages/quickstart">参见官方配置文档</a></p>
+
+<h2 id="三-配置-jekyll">三 配置 jekyll</h2>
+
+<p>1 <a href="https://github.com/mmistakes/minimal-mistakes">选择主题：minimal-mistakes</a></p>]]></content><author><name></name></author><category term="blog" /><category term="ruby" /><category term="jekyll" /><summary type="html"><![CDATA[一 本地配置]]></summary></entry></feed>
