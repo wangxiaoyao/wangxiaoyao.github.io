@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "github.io搭建博客"
-date: 2024-06-26
-categories: [blog, ruby, jekyll]
+date: 2024-06-27
+categories: [图床, 域名, ruby, jekyll]
 ---
 
 ## 一 本地配置
@@ -36,7 +36,9 @@ which ruby
 
 ### 2 博客软件 jekyll
 
-> 全局安装 jekyll会造成：版本依赖冲突。以下局部安装：
+> 全局安装 jekyll会造成：版本依赖冲突。（在mac的lib库，查看： `bundle show jekyll` ）
+>
+> 以下局部安装（隔离依赖）：1 不同环境，相同的gem版本。 2 同一环境，避免不同软件版本冲突。
 
 ```shell
 ## 创建文件夹blog
@@ -47,7 +49,7 @@ cd blog
 gem install bundler
 vim Gemsfile
 
-## 局部安装：通过bundle安装并控制此项目文件：而不是gem。之后所有操作前缀：`bundle exec`
+## 局部安装：通过bundle安装并控制依赖。操作前缀：`bundle exec`：告诉ruby执行的项目依赖为自动生成的文件Gemsfile.lock
 bundle install
 
 ## 查看局部安装的gem软件包.以及删除非Gemsfile上的包
@@ -84,7 +86,19 @@ gem 'webrick', '~> 1.7', require: false
 
 ## 三 配置 jekyll
 
-1 [选择主题：minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
+### 1 [选择主题：minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
+
+> 注意点：
+
+
+
+### 2 图床
+
+
+
+### 3 域名
+
+
 
 
 
