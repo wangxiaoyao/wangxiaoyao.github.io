@@ -88,7 +88,9 @@ gem 'webrick', '~> 1.7', require: false
 
 ### 1 [选择主题：minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-> 注意点：
+> 注意点：使用主题：minimal-mistakes， 在github action的build和deploy部署的过程中。出现无法找到：minimal-mistakes情况而构建失败。解决办法：_config.yml中的theme设置为remote theme。
+>
+> 详见： [配置remote主题]https://github.com/mmistakes/minimal-mistakes#remote-theme-method)。
 
 
 
