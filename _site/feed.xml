@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-27T06:23:14+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xiaoyao‘blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">My First Post</title><link href="http://localhost:4000/blog/jekyll/2024/06/26/writing-jekyll-posts.html" rel="alternate" type="text/html" title="My First Post" /><published>2024-06-26T00:00:00+08:00</published><updated>2024-06-26T00:00:00+08:00</updated><id>http://localhost:4000/blog/jekyll/2024/06/26/writing-jekyll-posts</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/2024/06/26/writing-jekyll-posts.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="blog" /><category term="jekyll" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">github.io搭建博客</title><link href="http://localhost:4000/blog/ruby/jekyll/2024/06/26/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="github.io搭建博客" /><published>2024-06-26T00:00:00+08:00</published><updated>2024-06-26T00:00:00+08:00</updated><id>http://localhost:4000/blog/ruby/jekyll/2024/06/26/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/blog/ruby/jekyll/2024/06/26/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html"><![CDATA[<h2 id="一-本地配置">一 本地配置</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-27T09:07:12+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xiaoyao‘blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">github.io搭建博客</title><link href="http://localhost:4000/%E5%9B%BE%E5%BA%8A/%E5%9F%9F%E5%90%8D/ruby/jekyll/2024/06/27/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="github.io搭建博客" /><published>2024-06-27T00:00:00+08:00</published><updated>2024-06-27T00:00:00+08:00</updated><id>http://localhost:4000/%E5%9B%BE%E5%BA%8A/%E5%9F%9F%E5%90%8D/ruby/jekyll/2024/06/27/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/%E5%9B%BE%E5%BA%8A/%E5%9F%9F%E5%90%8D/ruby/jekyll/2024/06/27/github.io%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html"><![CDATA[<h2 id="一-本地配置">一 本地配置</h2>
 
 <h3 id="1-安装配置软件">1 安装配置软件</h3>
 
@@ -41,7 +29,9 @@ which ruby
 <h3 id="2-博客软件-jekyll">2 博客软件 jekyll</h3>
 
 <blockquote>
-  <p>全局安装 jekyll会造成：版本依赖冲突。以下局部安装：</p>
+  <p>全局安装 jekyll会造成：版本依赖冲突。（在mac的lib库，查看： <code class="language-plaintext highlighter-rouge">bundle show jekyll</code> ）</p>
+
+  <p>以下局部安装（隔离依赖）：1 不同环境，相同的gem版本。 2 同一环境，避免不同软件版本冲突。</p>
 </blockquote>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">## 创建文件夹blog</span>
@@ -52,7 +42,7 @@ which ruby
 gem <span class="nb">install </span>bundler
 vim Gemsfile
 
-<span class="c">## 局部安装：通过bundle安装并控制此项目文件：而不是gem。之后所有操作前缀：`bundle exec`</span>
+<span class="c">## 局部安装：通过bundle安装并控制依赖。操作前缀：`bundle exec`：告诉ruby执行的项目依赖为自动生成的文件Gemsfile.lock</span>
 bundle <span class="nb">install</span>
 
 <span class="c">## 查看局部安装的gem软件包.以及删除非Gemsfile上的包</span>
@@ -82,4 +72,104 @@ gem 'webrick', '~&gt; 1.7', require: false
 
 <h2 id="三-配置-jekyll">三 配置 jekyll</h2>
 
-<p>1 <a href="https://github.com/mmistakes/minimal-mistakes">选择主题：minimal-mistakes</a></p>]]></content><author><name></name></author><category term="blog" /><category term="ruby" /><category term="jekyll" /><summary type="html"><![CDATA[一 本地配置]]></summary></entry></feed>
+<h3 id="1-选择主题minimal-mistakes">1 <a href="https://github.com/mmistakes/minimal-mistakes">选择主题：minimal-mistakes</a></h3>
+
+<blockquote>
+  <p>注意点：</p>
+</blockquote>
+
+<h3 id="2-图床">2 图床</h3>
+
+<h3 id="3-域名">3 域名</h3>]]></content><author><name></name></author><category term="图床" /><category term="域名" /><category term="ruby" /><category term="jekyll" /><summary type="html"><![CDATA[一 本地配置]]></summary></entry><entry><title type="html">TS运行到.vscode的配置</title><link href="http://localhost:4000/vscode/typescript/%E8%87%AA%E5%8A%A8%E5%8C%96/launch.json/2024/06/26/TS%E8%BF%90%E8%A1%8C%E5%88%B0.vscode%E7%9A%84%E9%85%8D%E7%BD%AE.html" rel="alternate" type="text/html" title="TS运行到.vscode的配置" /><published>2024-06-26T00:00:00+08:00</published><updated>2024-06-26T00:00:00+08:00</updated><id>http://localhost:4000/vscode/typescript/%E8%87%AA%E5%8A%A8%E5%8C%96/launch.json/2024/06/26/TS%E8%BF%90%E8%A1%8C%E5%88%B0.vscode%E7%9A%84%E9%85%8D%E7%BD%AE</id><content type="html" xml:base="http://localhost:4000/vscode/typescript/%E8%87%AA%E5%8A%A8%E5%8C%96/launch.json/2024/06/26/TS%E8%BF%90%E8%A1%8C%E5%88%B0.vscode%E7%9A%84%E9%85%8D%E7%BD%AE.html"><![CDATA[<h2 id="一-ts项目">一 TS项目</h2>
+
+<p>下载所需npm包（<code class="language-plaintext highlighter-rouge">npm root -g</code>  获取npm包全局安装目录 ）</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">## typescript：tsc命令行 1 --init 生成项目tsconfig.json   2 执行tsconfig.json配置</span>
+npm <span class="nb">install </span>typescript <span class="nt">-g</span>
+
+<span class="c">## ts-node</span>
+npm <span class="nb">install </span>ts-node <span class="nt">-g</span>
+
+<span class="c">## 可直接在shell中运行ts文件</span>
+ts-code XXX.ts
+</code></pre></div></div>
+
+<h2 id="二-配置vscode">二 配置vscode</h2>
+
+<p>创建<code class="language-plaintext highlighter-rouge">.vscode</code>文件夹。</p>
+
+<h3 id="1-tasksjson">1 tasks.json</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">##</span><span class="w"> </span><span class="err">定制自动化任务配置文件。</span><span class="w"> </span><span class="err">shift</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">cmd</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">b</span><span class="w"> </span><span class="err">快捷键。调出任务名称（如下：多个任务）</span><span class="w">
+
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"echo"</span><span class="p">,</span><span class="err">//</span><span class="w"> </span><span class="err">task名称。</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shell"</span><span class="p">,</span><span class="err">//</span><span class="w"> 
+    </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"echo Hello"</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">命令名称</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"run ts file"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shell"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ts-node ${file}"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">将此任务设置为默认构建任务。</span><span class="w">
+        </span><span class="nl">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"build"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"isDefault"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"presentation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">运行任务时终端的显示和行为</span><span class="w">
+        </span><span class="nl">"reveal"</span><span class="p">:</span><span class="w"> </span><span class="s2">"always"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"problemMatcher"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ts-build"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shell"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsc"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">使用本地配置文件</span><span class="w"> </span><span class="err">tsconfig.json</span><span class="w">
+        </span><span class="s2">"-p"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"."</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"build"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"isDefault"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"problemMatcher"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"$tsc"</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="err">//</span><span class="w"> </span><span class="err">typescript</span><span class="w"> </span><span class="err">--init后,vscode帮助你自动生成的task</span><span class="w">
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"typescript"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"tsconfig"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsconfig.json"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"watch"</span><span class="p">,</span><span class="err">//</span><span class="w"> </span><span class="err">watch</span><span class="w"> </span><span class="err">mode</span><span class="p">,</span><span class="err">每次保存就将ts生成为js</span><span class="w">
+    </span><span class="nl">"problemMatcher"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"$tsc-watch"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"group"</span><span class="p">:</span><span class="w"> </span><span class="s2">"build"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsc: watch - tsconfig.json"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<h3 id="2-launchjson">2 launch.json</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">##</span><span class="w"> </span><span class="err">vscode进行debug的配置文件。F</span><span class="mi">5</span><span class="err">快捷键</span><span class="w">
+
+</span><span class="p">{</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span><span class="w"> </span><span class="err">//调试器</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ts-node"</span><span class="p">,</span><span class="w"> </span><span class="err">//调试配置的名字</span><span class="w">
+    </span><span class="nl">"request"</span><span class="p">:</span><span class="w"> </span><span class="s2">"launch"</span><span class="p">,</span><span class="err">//启动新的调试会话</span><span class="w">
+    </span><span class="nl">"runtimeArgs"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"-r"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"/usr/local/lib/node_modules/ts-node/register"</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">关键点：ts-node对ts文件进行执行。我这里选择全局ts-node。也可选择当前项目下的node_module:</span><span class="s2">"ts-node/register"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+	  </span><span class="nl">"preLaunchTask"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsc: build - tsconfig.json"</span><span class="p">,</span><span class="err">//</span><span class="w"> </span><span class="err">前置任务：ts文件编译后。</span><span class="w">
+    </span><span class="nl">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"${relativeFile}"</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">当前打开的文件</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"cwd"</span><span class="p">:</span><span class="w"> </span><span class="s2">"${workspaceFolder}"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">工作目录</span><span class="w">
+    </span><span class="nl">"outFiles"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+	  </span><span class="nl">"sourceMaps"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">启用源映射，以便在调试时能够查看和调试</span><span class="w"> </span><span class="err">TypeScript</span><span class="w"> </span><span class="err">源代码。</span><span class="w">
+    </span><span class="nl">"internalConsoleOptions"</span><span class="p">:</span><span class="w"> </span><span class="s2">"openOnSessionStart"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="err">##</span><span class="w"> </span><span class="err">chrome</span><span class="w">
+</span></code></pre></div></div>]]></content><author><name></name></author><category term="vscode" /><category term="Typescript" /><category term="自动化" /><category term="launch.json" /><summary type="html"><![CDATA[一 TS项目]]></summary></entry></feed>
