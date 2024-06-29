@@ -98,8 +98,11 @@ gem 'webrick', '~> 1.7', require: false
 
 
 
+
+
 ### 3 域名
 
+配置cloudfare
 
 
 
