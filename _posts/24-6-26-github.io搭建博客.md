@@ -95,13 +95,12 @@ gem 'webrick', '~> 1.7', require: false
 
 
 ### 2 图床
-
+配置cloudfare
 
 
 
 
 ### 3 域名
-
 配置cloudfare
 
 
